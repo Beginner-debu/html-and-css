@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Discord Sidebar
+    </title>
+    <style>
+      .outer-flexbox{
+        position:fixed;
+        top:0;
+        bottom:0;
+        display:flex;
+        left:0;
+        width:250px;
+        padding-right:15px;
+      }
+      .left-section{
+        width:70px;
+        background-color:rgb(40,43,48);
+        position:fixed;
+        top:0;
+        bottom:0;
+        left:0;
+        padding-left:8px;
+        padding-top:16px;
+
+      }
+      .profile-div1{
+        height:60px;
+        margin-bottom:8px;
+      }
+      .profile-pic1{
+        width:60px;
+        height:60px;
+        object-fit:cover;
+        border-radius:50%;
+      }
+      .right-section{
+        position:fixed;
+        top:0;
+        bottom:0;
+        left:78px;
+        background-color:rgb(66,69,73);
+        width:170px;
+        padding-left:8px;
+        padding-right:15px;
+      }
+      .vertical-flexbox1{
+        display:flex;
+        justify-content:space-between;
+      }
+      p{
+        font-family:Arial;
+        color:rgb(164, 161, 161);
+      }
+      .info{
+        color:white;
+        font-size:14px;
+      }
+      .plus{
+        font-size:14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer-flexbox">
+      <div class="left-section">
+          <div class="profile-div1">
+            <img class="profile-pic1" src="thumbnails/cat.jpeg">
+          </div>
+          <div class="profile-div1">
+            <img class="profile-pic1" src="thumbnails/cat-1.jpeg">
+          </div>
+          <div class="profile-div1">
+            <img class="profile-pic1" src="thumbnails/dog.jpeg">
+          </div>
+      </div>
+      <div class="right-section">
+        <div class="vertical-flexbox1">
+          <p class="info">
+            INFO
+          </p>
+          <p class="plus">
+            +
+          </p>
+        </div>
+        <div class="div-2">
+          <p class="new-videos">
+            # new-videos
+          </p>
+        </div>
+        <div class="div-3">
+          <p class="updates">
+            # updates
+          </p>
+        </div>
+        <div class="div-4">
+          <p class="faq">
+            # faq
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

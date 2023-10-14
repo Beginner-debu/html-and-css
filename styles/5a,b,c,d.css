@@ -1,0 +1,72 @@
+p{
+  margin-top:0;
+  margin-bottom:0;
+}
+.tahoma{
+  font-family:Tahoma;
+  font-weight:bold;
+  font-size:20px;
+  margin-bottom:75px;
+}
+.Arial{
+  font-family:arial;
+  font-size:20px;
+}
+.Arial2{
+  color:red;
+  font-size:17px;
+  font-style:italic;
+  margin-bottom:75px;
+  line-height:25x;
+}
+.verdana
+{
+  font-family:Verdana;
+  font-size:20px;
+}
+.verdana2{
+  font-family:Verdana;
+  font-size:17px;
+  color:gray;
+  margin-bottom:15px;
+}
+.verdana3
+{
+  font-family:Verdana;
+  width:300px;
+  margin-bottom:20px;
+}
+.start-button{
+  background-color:green;
+  color:white;
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:10px;
+  padding-bottom:10px;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+  margin-bottom:75px;
+}
+.start-button:hover{
+  opacity:0.6;
+}
+.shopping{
+  font-family:arial;
+  font-size:20px;
+  text-align:center;
+  font-weight:bold;
+}
+.shopping1{
+  font-family:arial;
+  font-size:15px;
+  text-align:center;
+  line-height:40px;
+}
+.shopping2{
+  font-family:arial;
+  font-size:15px;
+  text-align:center;
+  line-height:24px;
+  color:rgb(0, 145, 255);
+}

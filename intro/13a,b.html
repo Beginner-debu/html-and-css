@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Nested Flexbox Exercise
+    </title>
+    <style>
+      .outer-flexbox1{
+        display:flex;
+        height:95px;
+        margin-bottom:50px;
+      }
+      .left-section{
+        width:100px;
+        background-color:lightpink;
+        display:flex;
+        align-items:center;
+      }
+      p{
+        margin-top:0;
+        margin-bottom:0;
+        color:white;
+        background-color:black;
+        font-size:20px;
+        margin-left:25px;
+      }
+      .right-section{
+        background-color:lightblue;
+        width:200px;
+      }
+      .left-section2{
+        width:100px;
+        background-color:lightpink;
+      }
+      .right-section2{
+        width:200px;
+        background-color:lightblue;
+      }
+      .row-1{
+        background-color:lightblue;
+        color:black;
+        margin-left:0;
+      }
+      .row-2{
+        background-color:black;
+        color:white;
+        margin-left:0;
+        
+      }
+      .top-flexbox{
+        display:flex;
+      }
+      .middle-flexbox{
+        display:flex;
+        justify-content:space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer-flexbox1">
+      <div class="left-section">
+        <p>
+          item1
+        </p>
+      </div>
+      <div class="right-section">
+      </div>
+    </div>
+
+    <div class="outer-flexbox1">
+      <div class="left-section2">
+      </div>
+      <div class="right-section2">
+        <div class="top-flexbox">
+          <p class="row-1">
+          row1
+          </p>
+          </div>
+        <div class="middle-flexbox">
+          <p class="row-2">
+            row2
+          </p>
+          <p class="row-2">
+            row2
+          </p>
+        </div>
+       
+      </div>
+    </div>
+  </body>
+</html>

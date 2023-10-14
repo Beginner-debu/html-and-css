@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Twitter.com Clone
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <style>
+    .outer-box{
+      display:flex;
+    }
+    .sidebar-div{
+      position:fixed;
+      display:flex;
+      flex-direction:column;
+      left:0;
+      top:0;
+      bottom:0;
+      width:370px;
+      background-color:black;
+      padding-left:95px;
+    }
+    .symbol-div{
+      width:100%;
+      cursor:pointer;
+
+    }
+    .twitter-symbol{
+      height:60px;
+      width:60px;
+    }
+    .home{
+      height:50px;
+      width:50px;
+    }
+    .home-div{
+      display:flex;
+      width:100%;
+      align-items:center;
+      cursor:pointer;
+    }
+    .home-div:hover{
+      background-color:rgb(39, 38, 38);
+      border-radius:30px;
+
+    }
+   .sidebar-image-div{
+    width:56px;
+    height:50px;
+   }
+    p{
+      color:rgb(231, 233, 234);
+      font-family:Roboto,Arial;
+      margin-top:0;
+      margin-bottom:0;
+    }
+    .home-name{
+      font-size:20px;
+    }
+    .post-button-div{
+      margin-top:5px;
+    }
+    .post-button{
+      background-color:rgb(0, 166, 255);
+      color:rgb(231, 233, 234);
+      padding:15px 100px 15px 100px;
+      border:none;
+      font-family:Roboto,Arial;
+      font-weight:bold;
+      font-size:18px;
+      border-radius:30px;
+    }
+  </style>
+  <body>
+    <div class="outer-box">
+      <div class="sidebar-div">
+        <div class="symbol-div">
+          <img class="twitter-symbol" src="icons/logo.png">
+        </div>
+        <div class="home-div">
+          <div class="sidebar-image-div">
+            <img class="home" src="icons/home.jpeg">
+          </div>
+          <p class="home-name">
+            Home
+          </p>
+        </div>
+        <div class="home-div">
+          <div class="sidebar-image-div">
+            <img class="home" src="icons/home.jpeg">
+          </div>
+          <p class="home-name">
+            Explore
+          </p>
+        </div>
+        <div class="home-div">
+          <div class="sidebar-image-div">
+            <img class="home" src="icons/home.jpeg">
+          </div>
+          <p class="home-name">
+            Notifications
+          </p>
+        </div>
+        <div class="home-div">
+          <div class="sidebar-image-div">
+            <img class="home" src="icons/home.jpeg">
+          </div>
+          <p class="home-name">
+            Messages
+          </p>
+        </div>
+        <div class="home-div">
+          <div class="sidebar-image-div">
+            <img class="home" src="icons/home.jpeg">
+          </div>
+          <p class="home-name">
+            Lists
+          </p>
+        </div>
+        <div class="home-div">
+          <div class="sidebar-image-div">
+            <img class="home" src="icons/home.jpeg">
+          </div>
+          <p class="home-name">
+            Bookmarks
+          </p>
+        </div>
+        <div class="home-div">
+          <div class="sidebar-image-div">
+            <img class="home" src="icons/home.jpeg">
+          </div>
+          <p class="home-name">
+            Communities
+          </p>
+        </div>
+        <div class="home-div">
+          <div class="sidebar-image-div">
+            <img class="home" src="icons/logo.png">
+          </div>
+          <p class="home-name">
+            Premium
+          </p>
+        </div>
+        <div class="home-div">
+          <div class="sidebar-image-div">
+            <img class="home" src="icons/home.jpeg">
+          </div>
+          <p class="home-name">
+            Profile
+          </p>
+        </div>
+        <div class="home-div">
+          <div class="sidebar-image-div">
+            <img class="home" src="icons/home.jpeg">
+          </div>
+          <p class="home-name">
+            More
+          </p>
+        </div>
+        <div class="post-button-div">
+         <button class="post-button">
+          Post
+         </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

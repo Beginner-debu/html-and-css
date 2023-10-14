@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Facebook Header
+    </title>
+    <style>
+      body{
+        height:3000px;
+      }
+      .outer-flexbox{
+        display:flex;
+        position:fixed;
+        left:0;
+        top:0;
+        right:0;
+        height:50px;
+        box-shadow:5px 5px 10px rgba(0,0,0,0.15);
+        padding-left:100px;
+        padding-top:5px;
+        padding-bottom:5px;
+        align-items:center;
+      }
+      .left-section{
+        width:60px;
+      }
+      .middle-section{
+        width:900px;
+      }
+      .profile-pic{
+        width:50px;
+        height:50px;
+        object-fit:cover;
+        border-radius:50%;
+      }
+      p{
+        font-family:Arial;
+        font-weight:bold;
+        font-size:14px;
+      }
+      .right-section{
+        display:flex;
+      }
+      .add-button{
+        padding-top:8px;
+        padding-bottom:8px;
+        padding-left:10px;
+        padding-right:10px;
+        background-color:rgb(0, 132, 255);
+        color:white;
+        font-weight:bold;
+        border:none;
+        margin-right:6px;
+        border-radius:6px;
+        
+      }
+      .message-button{
+        padding-top:8px;
+        padding-bottom:8px;
+        padding-left:15px;
+        padding-right:15px;
+        background-color:rgb(230, 221, 221);
+        color:black;
+        font-weight:bold;
+        border:none;
+        margin-right:8px;
+        border-radius:6px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer-flexbox">
+      <div class="left-section">
+        <img class="profile-pic" src="thumbnails/cat.jpeg">
+      </div>
+      <div class="middle-section">
+        <p class="name">
+          Oliver Cat
+        </p>
+      </div>
+      <div class="right-section">
+        <button class="add-button">
+          Add friend
+        </button>
+        <button class="message-button">
+          Message
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

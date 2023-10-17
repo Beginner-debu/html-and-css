@@ -1,0 +1,106 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  display:flex;
+  flex-direction:column;
+}
+.first-page-div{
+  height:815px;
+  width:1440px;
+  background-image : url('thumbnails/image1.png');
+  background-attachment:fixed;
+  background-size:100%;
+  background-repeat:no-repeat;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.first-text-div{
+background-color:rgb(54,57,62);
+padding:20px 20px;
+
+}
+p{
+  margin-top:0;
+  margin-bottom:0;
+  font-family:Arial;
+}
+.website-type{
+color:white;
+letter-spacing:7px;
+font-size:28px;
+}
+.second-page-div,.second2-page-div{
+  width:1440px;
+  height:750px;
+  background-attachment:fixed;
+  background-size:100%;
+  background-repeat:no-repeat;
+  position:relative;
+  z-index:-1;
+}
+.second-page-div{
+  background-image:url('thumbnails/image2.png');
+}
+.upper-section,.upper-section1{
+  padding-top:70px;
+  padding-bottom:60px;
+  position:relative;
+  top:0;
+}
+.upper-section{
+  background-color:rgb(246, 243, 243);
+}
+.sec-page-title, .sec-page-description, .sec2-page-title, .sec2-page-description {
+  text-align:center;
+}
+.sec-page-title, .sec2-page-title{
+  font-weight:bold;
+  margin-bottom:20px;
+  font-size:25px;
+}
+.sec-page-title{
+  color:rgb(106, 105, 105);
+}
+.description-div{
+padding-left:70px;
+padding-right:70px;
+}
+.sec-page-description,.sec2-page-description{
+line-height:30px;
+}
+.sec-page-description{
+  color:rgb(117, 116, 116);
+}
+.lower-section{
+  display:flex;
+  height:440px;
+  align-items:center;
+  justify-content:center;
+}
+.third-page-div{
+  width:1440px;
+  height:1150px;
+  background-image:url('thumbnails/image1.png');
+  background-attachment:fixed;
+  background-size:100%;
+  background-repeat:no-repeat;
+  position:relative;
+}
+.upper-section1{
+  background-color:rgb(54,57,62);
+}
+.sec2-page-title ,.sec2-page-description{
+  color:rgb(231, 227, 227);
+}
+.lower1-section{
+  display:flex;
+  height:815px;
+  align-items:center;
+  justify-content:center;
+}
+.second2-page-div{
+  background-image:url('thumbnails/image3.png');
+}
